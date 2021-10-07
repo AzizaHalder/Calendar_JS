@@ -1,7 +1,7 @@
 // const myHeading = document.querySelector('h4');
 // myHeading.textContent = "Hello world!";
 
-const date = new Date();
+// const date = new Date();
 
 const months = [
     "January",
@@ -18,13 +18,25 @@ const months = [
     "December",
 ];
 
-document.querySelector('.date').innerHTML
-=months[date.getMonth()];
+// document.querySelector('.date').innerHTML
+// =months[date.getMonth()];
+
+// function getCurrentMonth () {
+//     for(month of months){
+//         console.log(month)
+//     }
+// }
+
+// getCurrentMonth()
+
+let currentMonth = "May"
 
 function getCurrentMonth () {
-    for(month of months){
-        console.log(month)
+    for (let x=0; x<months.length; x++){
+        if (months[x]==currentMonth){
+           return(months[x]);
+        }
     }
 }
-
 getCurrentMonth()
+

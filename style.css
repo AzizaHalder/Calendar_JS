@@ -21,7 +21,7 @@ td, th {
     padding: 5px 10px;
     }
 
-td:hover {
+.weekdays, .days :hover {
     background-color: ivory;
 
 }
@@ -29,5 +29,12 @@ td:hover {
 .weekend {
     color:lightcoral;
 }
+
+.currentMonth {
+    text-align: center;
+    border: 2px solid #fff;
+    border-collapse: collapse;
+}
+
 
 
